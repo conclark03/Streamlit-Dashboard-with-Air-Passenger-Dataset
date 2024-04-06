@@ -10,7 +10,7 @@ import numpy as np
 
 #Pulling in dataset
 
-df=pd.read_csv(r"C:\Users\lilco\myenv\AirPassengers.csv", encoding='utf-8') #I had issues with the system reading my dataset. Had to look up a fix
+df=pd.read_csv('AirPassengers.csv')
 
 #Read the data and data types
 print(df.head())
