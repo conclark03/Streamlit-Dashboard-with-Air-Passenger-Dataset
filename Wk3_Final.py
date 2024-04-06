@@ -27,7 +27,7 @@ print(df.dtypes)
 st.title('Air Passenger Data')
 
 #Add Image
-st.image(r"C:\Users\lilco\myenv\OIP.jpg")
+st.image('OIP.jpg')
 st.divider()
 
 #Create graph to show number of passenger over time
